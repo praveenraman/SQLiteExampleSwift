@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18271E18253995EF002FE5BB /* SecrtPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18271E17253995EF002FE5BB /* SecrtPageViewController.swift */; };
 		182F21232533264400477466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F21222533264400477466 /* AppDelegate.swift */; };
 		182F21252533264400477466 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F21242533264400477466 /* SceneDelegate.swift */; };
 		182F21272533264400477466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F21262533264400477466 /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		15BF0F89FC5A8C3BDA6CA025 /* Pods_SQLiteExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLiteExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E490C5F2FD3A6775A9C643 /* Pods-SQLiteExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteExampleTests.release.xcconfig"; path = "Target Support Files/Pods-SQLiteExampleTests/Pods-SQLiteExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		1745BC37562EF3557F377519 /* Pods-SQLiteExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteExample.release.xcconfig"; path = "Target Support Files/Pods-SQLiteExample/Pods-SQLiteExample.release.xcconfig"; sourceTree = "<group>"; };
+		18271E17253995EF002FE5BB /* SecrtPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecrtPageViewController.swift; sourceTree = "<group>"; };
 		182F211F2533264400477466 /* SQLiteExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F21222533264400477466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		182F21242533264400477466 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				182F21222533264400477466 /* AppDelegate.swift */,
 				182F21242533264400477466 /* SceneDelegate.swift */,
 				182F21262533264400477466 /* ViewController.swift */,
+				18271E17253995EF002FE5BB /* SecrtPageViewController.swift */,
 				182F21282533264400477466 /* Main.storyboard */,
 				182F212E2533266B00477466 /* Assets.xcassets */,
 				182F21302533266B00477466 /* LaunchScreen.storyboard */,
@@ -427,6 +430,7 @@
 				182F21272533264400477466 /* ViewController.swift in Sources */,
 				182F21232533264400477466 /* AppDelegate.swift in Sources */,
 				182F21252533264400477466 /* SceneDelegate.swift in Sources */,
+				18271E18253995EF002FE5BB /* SecrtPageViewController.swift in Sources */,
 				182F216D2533333000477466 /* SignupModel.swift in Sources */,
 				182F2172253333AF00477466 /* DatabaseManager.swift in Sources */,
 			);

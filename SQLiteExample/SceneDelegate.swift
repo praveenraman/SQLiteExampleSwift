@@ -53,6 +53,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
         if let url = URLContexts.first?.url{
             print(url)
+            
+            let urlcomponents = URLComponents(url: url, resolvingAgainstBaseURL: true)
+            let host = urlcomponents?.host ?? ""
+            print(host)
+            
+            if host == "secretPage"{
+             
+                let sb = UIStoryboard(name: "Main", bundle: .main)
+                let secretVC = sb.instantiateViewController(withIdentifier: "SecrtPageViewController") as? SecrtPageViewController
+                secretVC!.secretTextStr = urlcomponents?.queryItems?.first?.value
+                window?.rootViewController = secretVC
+            }
         }
     }
 }
